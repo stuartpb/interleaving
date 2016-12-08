@@ -1,6 +1,6 @@
 {
   "name": "interleaving",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "JavaScript functions to combine N arrays of any size, distributing items evenly",
   "main": "interleaving.js",
   "directories": {
