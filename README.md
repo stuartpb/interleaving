@@ -14,9 +14,9 @@ Points of equal distance will be placed by the order the arrays are specified, s
 > console.log(interleaving.justify(
 >>   ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'],
 >>   ['1', '2', '3', '4'],
->>   ['A', 'B', 'C']));
+>>   ['X', 'Y', 'Z']));
 
-[ 'a', 'b', '1', 'A', 'c', 'd', '2', 'e', 'B', 'f', '3', 'g', 'h', '4', 'C' ]
+[ 'a', 'b', '1', 'X', 'c', 'd', '2', 'e', 'Y', 'f', '3', 'g', 'h', '4', 'Z' ]
 ```
 
 ## interleaving.center(array1, array2, ...)
@@ -29,7 +29,7 @@ Points of equal distance will be placed by the order the arrays are specified.
 > console.log(interleaving.center(
 >>   ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'],
 >>   ['1', '2', '3', '4'],
->>   ['A', 'B', 'C']));
+>>   ['X', 'Y', 'Z']));
 
-[ 'a', '1', 'b', 'A', 'c', '2', 'd', 'B', 'e', '3', 'f', 'C', 'g', '4', 'h' ]
+[ 'a', '1', 'b', 'X', 'c', '2', 'd', 'Y', 'e', '3', 'f', 'Z', 'g', '4', 'h' ]
 ```

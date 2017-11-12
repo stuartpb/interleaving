@@ -8,16 +8,16 @@ describe('interleaving.center', function() {
   });
   it('should give zip-like results for three identical-length arrays', function() {
     assert.deepEqual(
-      interleaving.center(['a','b','c'], ['1','2','3'], ['A','B','C']),
-      ['a','1','A','b','2','B','c','3','C']);
+      interleaving.center(['a','b','c'], ['1','2','3'], ['X','Y','Z']),
+      ['a','1','X','b','2','Y','c','3','Z']);
   });
   it('should give centered results for different arrays', function() {
     assert.deepEqual(
       interleaving.center(
         ['a','b','c','d','e','f','g','h'],
         ['1','2','3','4'],
-        ['A','B','C']),
-      ['a','1','b','A','c','2','d','B','e','3','f','C','g','4','h']
+        ['X','Y','Z']),
+      ['a','1','b','X','c','2','d','Y','e','3','f','Z','g','4','h']
     );
   });
   it('should put one item specified second in the middle', function() {
